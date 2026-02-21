@@ -1,4 +1,35 @@
-# React + TypeScript + Vite
+# Corretor N8N
+
+Aplicação React para cadastro de terrenos com integração via webhook N8N.
+
+## Variáveis de Ambiente
+
+Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+
+```env
+# URL da API Webhook
+VITE_API_URL=
+
+# Credenciais de autenticação Basic Auth
+VITE_API_USER=
+VITE_API_PASSWORD=
+```
+
+**Nota:** As variáveis de ambiente devem começar com `VITE_` para serem expostas ao código do cliente no Vite.
+
+## Desenvolvimento
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+---
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
