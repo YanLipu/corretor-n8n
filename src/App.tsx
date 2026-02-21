@@ -7,7 +7,7 @@ const WEBHOOK_URL = import.meta.env.VITE_API_URL
 const API_USER = import.meta.env.VITE_API_USER
 const API_PASSWORD = import.meta.env.VITE_API_PASSWORD
 
-function App() {
+export function App() {
   const [view, setView] = useState<ViewState>('idle');
   const [response, setResponse] = useState<ApiResponse | undefined>();
   const [formData, setFormData] = useState<FormData>({ nome: '', email: '', descricao: '' });
